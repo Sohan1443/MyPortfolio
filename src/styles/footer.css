@@ -1,14 +1,102 @@
-.footer-content{
+.footer-content {
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 600;
     padding: 20px;
-    background-color: #585656;
+    background-color: rgb(30, 58, 70);
     color: #f3ebeb;
+    flex-wrap: wrap;
 
 }
-.footer-content span{
+
+.footer-content span {
     color: rgb(2, 11, 134);
     font-weight: 600;
+}
+.footer-contact{
+    background-color: rgb(30, 58, 70);
+    padding-top: 20px;
+
+}
+.ftCnt{
+    text-align: center;
+}
+.ftCnt h3 {
+    font-size: 20px;
+    padding: 10px 0px;
+    color: #f7ac0b;
+}
+.ftCnt p {
+    font-size: 16px;
+    padding: 5px 10px;
+    color: #f3ebeb;
+}
+
+
+
+
+
+.contactMe {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 30px 10px;
+    background-color:rgb(30, 58, 70);
+    color: #ffff;
+}
+.contactMe a{
+    text-decoration: none;
+    color: #ffff;
+}
+.name-sec,
+.address,
+.email,.phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.contactMe h5 {
+    font-size: 18px;
+    padding: 5px 0px;
+}
+
+.icons {
+    font-size: 20px;
+    color: #f7ac0b;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #f7ac0b;
+
+}
+
+.socialMedia div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+   
+}
+
+
+.icons-media{
+    color: #f7ac0b;
+    padding: 5px;
+    border: 1px solid #f7ac0b;
+    font-size: 30px;
+    border-radius: 50%;
+}
+.icons-media:hover {
+    color: #ffff;
+    background-color: #f7ac0b;
+    border: 1px solid #ffff;
+    transition: 0.3s ease-in-out;
 }

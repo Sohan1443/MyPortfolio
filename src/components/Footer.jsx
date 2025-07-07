@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/footer.CSS'
+import '../styles/footer.CSS';
 import { IoIosContact } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";

@@ -1,0 +1,138 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    margin: 0px 0px;
+    background: linear-gradient(90deg, #232526 0%, #414345 100%);
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo h2 {
+    
+    color: #ffd166;
+    font-family: "Pacifico";
+
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navList a {
+    text-decoration: none;
+    color: #f8fafc;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.navList a:hover {
+    color: #ffd166;
+    transition: all 0.3s ease-in-out;
+}
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  margin-left: 20px;
+  z-index: 1002;
+}
+.menu-icon .bar {
+  width: 28px;
+  height: 4px;
+  background: #ffd166;
+  margin: 4px 0;
+  border-radius: 2px;
+  transition: 0.4s;
+}
+.menu-icon .bar.open:nth-child(1) {
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+.menu-icon .bar.open:nth-child(2) {
+  opacity: 0;
+}
+.menu-icon .bar.open:nth-child(3) {
+  transform: rotate(45deg) translate(-6px, -6px);
+}
+
+@media (max-width: 900px) {
+  .home-container {
+    flex-direction: column;
+    height: auto;
+    padding: 30px 0;
+  }
+  .home-content {
+    height: auto;
+    align-items: center;
+    text-align: center;
+  }
+  .home-image {
+    margin-top: 20px;
+    width: 220px;
+    height: 220px;
+  }
+  .home-content h1 {
+    font-size: 32px;
+  }
+  .home-content p, .home-content span {
+    font-size: 18px;
+  }
+  .navbar {
+    padding: 10px 10px;
+  }
+  .navList {
+    gap: 18px;
+  }
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    flex-wrap: wrap;
+    padding: 10px 5px;
+  }
+  .menu-icon {
+    display: flex;
+  }
+  .nav {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100vw;
+    background: #232526;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    z-index: 1001;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  }
+  .nav.nav-open {
+    display: flex;
+  }
+  .navList {
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+    padding: 0;
+  }
+  .navList li {
+    width: 100%;
+    text-align: center;
+    padding: 14px 0;
+    border-bottom: 1px solid #333;
+  }
+  .navList a {
+    font-size: 20px;
+    color: #ffd166;
+  }
+}

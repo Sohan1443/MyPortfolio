@@ -1,5 +1,5 @@
 import React, { useState , useEffect } from 'react'
-import '../styles/about.css'
+import '../styles/aboutStyle.css';
 import aboutImage from '../assets/SohanImg.png'; // Adjust the path as necessary
 import { NavLink } from 'react-router-dom';
 import { IoLogoLinkedin } from "react-icons/io5";

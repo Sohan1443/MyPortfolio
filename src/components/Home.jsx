@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-import '../styles/home.css'
+import '../styles/homeStyle.css'
 import { FaHandSparkles } from "react-icons/fa";
 import homeImage from '../assets/Sohan.png';
 

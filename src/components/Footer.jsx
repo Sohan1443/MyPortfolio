@@ -1,10 +1,13 @@
 import React from 'react'
-import '../styles/footer.CSS';
+
+import '../styles/footerStyle.css';
+
 import { IoIosContact } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { FaPhoneSquareAlt, FaLinkedin } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+
 export default function Footer() {
   return (
     <>

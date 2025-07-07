@@ -24,8 +24,9 @@ const Router = createBrowserRouter([
       <Header />
       <Home />
       <About/>
+      <Skills/>
+      <Project />
       <Footer />
-
     </div>,
   },
  

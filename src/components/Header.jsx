@@ -36,10 +36,10 @@ export default function Header() {
                 <nav className={menuOpen ? "nav nav-open" : "nav"}>
                     <ul className='navList'>
                         <li><NavLink to="/" onClick={() => setMenuOpen(false)}>Home</NavLink></li>
-                        <li><NavLink to="/about" onClick={() => setMenuOpen(false)}>About</NavLink></li>
+                        <li><NavLink to="/about" onClick={() => setMenuOpen(false)}>About Us</NavLink></li>
                         <li><NavLink to="/skills" onClick={() => setMenuOpen(false)}>Skills</NavLink></li>
                         <li><NavLink to="/projects" onClick={() => setMenuOpen(false)}>Projects</NavLink></li>
-                        <li><NavLink to="/contact" onClick={() => setMenuOpen(false)}>Contact</NavLink></li>
+                        <li><NavLink to="/contact" onClick={() => setMenuOpen(false)}>Contact Us</NavLink></li>
                     </ul>
                 </nav>
             </div>

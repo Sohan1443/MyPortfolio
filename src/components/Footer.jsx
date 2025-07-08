@@ -3,7 +3,7 @@ import React from 'react'
 import '../styles/footerStyle.css';
 
 import { IoIosContact } from "react-icons/io";
-import { FaLocationDot } from "react-icons/fa6";
+import { FaLocationDot,FaInstagram ,FaGithubAlt  } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { FaPhoneSquareAlt, FaLinkedin } from "react-icons/fa";
 import { Link } from 'react-router-dom';
@@ -57,9 +57,9 @@ export default function Footer() {
           <div className="socialMedia">
             <h5>Stay Connected</h5>
             <div>
-              <Link> < FaLinkedin className='icons-media' /> </Link>
-              <Link>  < MdEmail className='icons-media' /></Link>
-              <Link> < FaLinkedin className='icons-media' /> </Link>
+              <Link to="https://www.linkedin.com/in/sohan-kumar-80a751242" target='blank'> < FaLinkedin className='icons-media' /> </Link>
+              <Link to="https://github.com/Sohan1443" target='blank'>  <FaGithubAlt  className='icons-media' /></Link>
+              <Link to="https://www.instagram.com/gautam.sohan_59/profilecard/?igsh=amVpOHJjcXh0dDVl" target='blank'> < FaInstagram className='icons-media' /> </Link>
 
             </div>
           </div>

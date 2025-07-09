@@ -32,7 +32,7 @@ export default function Footer() {
             </div>
             <div>
               <h5>Address</h5>
-              <p>Sector 63, Noida, Uttar Pradesh , India.</p>
+              <p>Basti, Uttar Pradesh 272002 , India.</p>
             </div>
           </div>
 

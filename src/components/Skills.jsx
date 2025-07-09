@@ -3,6 +3,7 @@ import React from 'react'
 import '../styles/skillsStyle.css';
 
 import { IoMdArrowDropright } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 export default function Skills() {
   const skills = [
@@ -30,7 +31,7 @@ export default function Skills() {
           <p>With a <strong> strong foundation in HTML, CSS, JavaScript, React.Js and Node.Js and Express.Js </strong>, I have honed my skills in both front-end and back-end development. I enjoy tackling challenges and continuously learning new technologies to stay updated in this ever-evolving field.</p>
           <br />
           <p>I believe in the power of collaboration and am always eager to connect with fellow developers and tech enthusiasts. Let's build something amazing together!</p>
-          <button className='read-btn'>Read More <IoMdArrowDropright className='btn-icon'/> </button>
+          <button className='read-btn'><Link to='/projects' className='read-project'>Read More <IoMdArrowDropright className='btn-icon'/></Link> </button>
         </div>
         <div className="skills-list">
           {skills.map((skill) => (

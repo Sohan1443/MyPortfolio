@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react'
 import '../styles/homeStyle.css'
 import { FaHandSparkles } from "react-icons/fa";
 import homeImage from '../assets/Sohan.png';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   const words = [
@@ -40,7 +41,7 @@ export default function Home() {
             <span> {displayedText}</span>
           </p>
           <p>Explore my projects and skills below.</p>
-          <button className="btn">Get Started</button>
+          <button className="btn"><a href='/'>Get Started</a></button>
         </div>
         <div className="home-image">
           <img src={homeImage} alt="Home" />

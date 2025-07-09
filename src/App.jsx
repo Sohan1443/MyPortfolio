@@ -22,6 +22,7 @@ const Router = createBrowserRouter([
       <About/>
       <Skills/>
       <Project />
+      <Contact/>
       <Footer />
     </div>,
   },
